@@ -45,7 +45,6 @@ main {
 }
 
 .section02 {
-  width: 500px;
   text-align: justify;
   color: black;
   padding: 10px;
@@ -119,7 +118,7 @@ footer address {
 * {
   margin: 0;
   padding: o;
-  color: #D8D8D8;
+  color: black;
 }
 
 @media (min-width: 576px) {
