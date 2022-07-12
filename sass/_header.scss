@@ -1,0 +1,52 @@
+header{
+    //.logo{
+    align-content: center ;
+    &_img{
+        width: 200px;
+        border-width: 5px;
+        padding: +50px;
+        letter-spacing: 2px;
+    }
+}
+
+//menu nav
+.menu{
+    color: $colorBase;
+    display: inline-block;
+    padding: 20px;
+    margin-top: 20px;
+    border: none;
+    ul{
+        li{
+            display: inline-block;
+            a{
+                display: inline-block;
+                color: $colorPrincipal;  
+                &:visited{
+                color: $colorTerciario;
+                }
+        }
+    }
+    }
+    }
+
+//main
+main{
+    text-align: center;
+}
+
+#s1{
+    display: inline-block;
+    div{
+        img{
+            align-self: center;
+            width: 200px;
+        }
+    }
+    h5{
+        font-size: $fontMedium;
+    }
+    p{
+        font-size: $fontSmall;
+    }
+}

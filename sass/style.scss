@@ -1,0 +1,28 @@
+@import "vars";
+@import "header";
+@import "section";
+@import "footer";
+
+*{
+    margin: 0;
+    padding: o;
+    color: $colorBase;
+}
+
+@media (min-width: $mobile) {
+    *{
+        background-color: $colorSecundario;
+    }
+}
+
+@media (min-width: $tablet) {
+    *{
+        background-color: $colorBase;
+    }
+}
+
+@media (min-width: $desktop) {
+    *{
+        background-color: $colorBase;
+    }
+}

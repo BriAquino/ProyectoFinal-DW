@@ -1,0 +1,73 @@
+.section02{
+    width: 500px;
+    text-align: justify;
+    color: $colorPrincipal;
+    padding: 10px;
+    .nosotros{
+        padding: +20px;
+    }
+    .txt_nosotros{
+        padding: +50px;
+    }
+}
+
+h3{
+    font-size: $fontMedium;
+}
+
+#s2{
+    display: inline-block;
+    aside{
+        .figure__1 .figure__2 .figure__3{
+            display: inline-block;
+            width: 150px;
+            margin: auto;
+            padding: 50px;
+            border: 1px;
+            h5{
+                font-size: $fontMedium;
+            }
+            h6{
+                font-size: $fontSmall;
+            }
+            p{
+                font-size: $fontXs;
+            }
+        }
+    }
+}
+
+.figure{
+    display:  inline-block;
+	width: 200px;
+	margin: auto;
+	padding: 100px;
+	border: 1px;
+    img{
+        width: 150px;
+    }
+}
+
+#amb #amb-ac #amb-bc #utim{
+    h3{
+        font-size: $fontMedium;
+    }
+    p{
+        font-size: $fontSmall;
+    }
+}
+
+
+.preguntas_fr{
+    h1{
+        font-size: $fontLarge;
+    }
+    article{
+        h3{
+            font-size: $fontMedium;
+        }
+        p{
+            font-size: $fontSmall;
+        }
+    }
+}
